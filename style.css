@@ -13,7 +13,7 @@ body {
   padding: 25px;
   background: rgb(225, 225, 225);
 }
-main {
+.main {
   background: #0a4752;
 
   margin-top: 4rem;
@@ -164,19 +164,19 @@ main {
 
 /*headeren*/
 div.container {
-  font-family: Raleway;
   margin: 0 auto;
-  padding: 3em 1.5em;
+  padding: 2em 1.5em;
   text-align: center;
   position: sticky;
   top: 0;
   z-index: 2;
+  font-size: 1.5rem;
 }
 
 div.container a {
   color: #fff;
   text-decoration: none;
-  font: 20px Raleway;
+  font: 20px;
   margin: 0px 10px;
   padding: 10px 10px;
   position: relative;
@@ -240,6 +240,7 @@ section {
   gap: 2rem;
   padding: 2rem;
   cursor: pointer;
+  margin: 0.5rem 2rem;
 }
 .billede {
   width: 10rem;
@@ -253,10 +254,38 @@ section {
 }
 
 section:hover {
-  box-shadow: 1px 3px 18px 5px black;
+  box-shadow: 1px 3px 18px 5px rgb(193, 193, 193);
 }
 .beholder {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+}
+a {
+  color: rgb(193, 193, 193);
+  text-decoration: none;
+}
+#mouad {
+  height: 30rem;
+}
+#b {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  margin-right: 17rem;
+  hyphens: auto;
+}
+
+#b p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+#b h1 {
+  padding-top: 3rem;
+}
+#last {
+  margin-bottom: 3rem;
+}
+article {
+  padding: 1.5rem;
 }
